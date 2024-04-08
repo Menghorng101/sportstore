@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link css -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- link swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>sportstore</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="#" class="logo">sportstore.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#product">products</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fa-solid fa-bars" id="menu-bar"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a class="fa-solid fa-heart"></a>
+        <a class="fa-solid fa-cart-shopping"></a>
+      </div>
+    </header>
+    <!-- end of  header -->
+
+    <!-- form search -->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- end of form search -->
+
+    <!-- section hero -->
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special shirt</span>
+              <h3>home shirt</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                explicabo! Cumque, odit.
+              </p>
+              <a href="" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="src/home.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special shirt</span>
+              <h3>away shirt</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                explicabo! Cumque, odit.
+              </p>
+              <a href="" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="src/away.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special shirt</span>
+              <h3>third shirt</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                explicabo! Cumque, odit.
+              </p>
+              <a href="" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="src/third.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of section hero -->
+
+    <!-- section product -->
+    <section class="products" id="products">
+      <h4 class="sub-title">our products</h4>
+      <h3 class="title">popular products</h3>
+      <div class="box">
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/arsenals.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>arsenal</h4>
+            <p>arsenal fc adidas Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/citys.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>man city</h4>
+            <p>man city fc puma Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/spur.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>tottenham</h4>
+            <p>tottenham fc nike Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/liverpool.webp" alt="">
+          </div>
+          <div class="products-text">
+            <h4>liverpool</h4>
+            <p>liverpool fc nike Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/juvan.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>juventus</h4>
+            <p>juventus adidas Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/acs.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>ac milan</h4>
+            <p>ac milan fc puma Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/inter.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>inter milan</h4>
+            <p>inter imlan fc nike Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+        <article class="products-card">
+          <div class="small-card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="src/napolis.png" alt="">
+          </div>
+          <div class="products-text">
+            <h4>napoli</h4>
+            <p>ssc napoli fc ea7 Home Shirt 2023-24.</p>
+            <span>$150.99</span>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of section product -->
+
+    <!-- section about -->
+    <section class="about" id="about">
+      <h4 class="sub-title">about us</h4>
+      <h3 class="title">why choose us?</h3>
+      <div class="row">
+        <div class="image">
+          <img src="src/cr7boot.png" alt="">
+        </div>
+        <div class="content">
+          <h3>Nike Cristiano Ronaldo Zoom Mercurial 2022 World Cup</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam odit vel blanditiis aut, non hic. Numquam at assumenda repellendus ipsam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dicta!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita consequatur quis nesciunt nulla fugit!</p>
+          <div class="about-icons">
+            <div class="icons">
+              <i class="fa-solid fa-truck-fast"></i>
+              <span>free delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>easy payment</span>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of section product -->
+
+    <!-- menu -->
+    <section class="menu" id="menu">
+      <h4 class="sub-title">our menu</h4>
+      <h3 class="title">today's speciality</h3>
+      <div class="box-menu">
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/nike.jpg" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>nike</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/nike1.jpg" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>nike</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/nike2.jpg" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>nike</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/adidas.jpg" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>adidas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/adidas1.jpg" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>adidas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/adidas2.jpg" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>adidas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">        
+          <div class="image">
+            <img src="src/wc14.png" alt=""> 
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>world cub ball 2014</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/euro16.png" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>uefa euro ball 2016</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/ucl24.webp" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>champains league ball 2024</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/real.webp" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>real madrid</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/bace.webp" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>barcelona</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+        <article class="card-menu">
+          <div class="image">
+            <img src="src/betic.webp" alt="">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="content-menu">
+            <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>real betis balompie</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima doloremque, nulla similique nam eos!</p>
+            <a href="#" class="btn">order now</a>
+            <span>$120.50</span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of menu  -->
+
+    <!-- section review -->
+    <section class="review" id="review">
+      <h4 class="sub-title">customer's review</h4>
+      <h3 class="title">what they say</h3>
+      <div class="swiper-container review-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box-review">
+              <i class="fas fa-quote-right"></i>
+              <div class="users">
+                <div class="image">
+                  <img src="src/pic1.jpg" alt="">
+                </div>
+                <div class="info">
+                  <h4>kai</h4>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates cumque quaerat provident magni eligendi ea veniam fugit possimus voluptas minus animi totam ducimus, dignissimos officia, iste voluptatibus sed enim?</p>
+            </div>
+            <div class="swiper-slide box-review">
+              <i class="fas fa-quote-right"></i>
+              <div class="users">
+                <div class="image">
+                  <img src="src/pic2.jpg" alt="">
+                </div>
+                <div class="info">
+                  <h4>harry</h4>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates cumque quaerat provident magni eligendi ea veniam fugit possimus voluptas minus animi totam ducimus, dignissimos officia, iste voluptatibus sed enim?</p>
+            </div>
+            <div class="swiper-slide box-review">
+              <i class="fas fa-quote-right"></i>
+              <div class="users">
+                <div class="image">
+                  <img src="src/pic3.jpg" alt="">
+                </div>
+                <div class="info">
+                  <h4>yavi</h4>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates cumque quaerat provident magni eligendi ea veniam fugit possimus voluptas minus animi totam ducimus, dignissimos officia, iste voluptatibus sed enim?</p>
+            </div>
+            <div class="swiper-slide box-review">
+              <i class="fas fa-quote-right"></i>
+              <div class="users">
+                <div class="image">
+                  <img src="src/pic4.webp" alt="">
+                </div>
+                <div class="info">
+                  <h4>sucic</h4>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates cumque quaerat provident magni eligendi ea veniam fugit possimus voluptas minus animi totam ducimus, dignissimos officia, iste voluptatibus sed enim?</p>
+            </div>
+          </div>
+      </div>
+      
+    </section>
+    <!-- end of section review -->
+
+    <!-- order -->
+    <section class="order" id="order">
+      <h4 class="sub-title">order now</h4>
+      <h3 class="title">free and fast</h3>
+      <form action="">
+        <div class="input-box">
+          <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name">
+          </div>
+          <div class="input">
+            <span>your number</span>
+            <input type="number" placeholder="enter your number">
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter products name">
+          </div>
+          <div class="input">
+            <span>additional products</span>
+            <input type="test" placeholder="extra with products">
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input">
+            <span>how musch</span>
+            <input type="number" placeholder="how many orders">
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local">
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input">
+            <span>your address</span>
+            <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="input">
+            <span>your message</span>
+            <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <input type="submit" value="order now" class="btn">
+      </form>
+    </section>
+    <!-- end of order -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container-footer">
+        <div class="list">
+          <h3>locations</h3>
+          <a href="#">kampong cham</a>
+          <a href="#">phnom penh</a>
+        </div>
+        <div class="list">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">product</a>
+          <a href="#">about</a>
+          <a href="#">menu</a>
+          <a href="#">review</a>
+          <a href="#">order</a>
+        </div>
+        <div class="list">
+          <h3>contack info</h3>
+          <a href="#">+855 962761101</a>
+          <a href="#">+855 15806701</a>
+          <a href="#">menghorng414@gmail.com</a>
+        </div>
+        <div class="list">
+          <h3>follow us</h3>
+          <a href="#">facekbook</a>
+          <a href="#">instagram</a>
+        </div>
+      </div>
+      <div class="copyright"><p>copyright &copy; 2024 <span>by meng horng</span></p>
+      </div>
+    </section>
+    <!-- end of footer -->
+
+    <!-- script swieer -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
