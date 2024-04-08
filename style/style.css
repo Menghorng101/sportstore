@@ -71,6 +71,7 @@ header {
   align-items: center;
   padding: 1rem 7%;
   z-index: 1000;
+  background-color: #fff;
   box-shadow: var(--box-shadow);
   position: fixed;
   top: 0;
