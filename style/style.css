@@ -693,11 +693,4 @@ header > .icons > #menu-bar {
   .order > form > .input-box > .input{
     width: 100%;
   }
-
-  .products-card > .small-card i{
-    width: 2.5rem;
-    height: 2.5rem;
-    line-height: 2rem;
-    font-size: 1.3rem;
-  }
 }
