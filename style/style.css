@@ -299,7 +299,6 @@ header > .icons > #menu-bar {
 
 .products-text{
   color: var(--dark);
-  text-align: center;
 }
 
 .products-text > h4{
@@ -309,15 +308,9 @@ header > .icons > #menu-bar {
 
 .products-text > span{
   font-size: 2rem;
-  margin-top: .5rem;
+  margin-right: .5rem;
   color: var(--green);
   font-weight: bold;
-}
-
-.products-text > .btn{
-  margin-left: .5rem;
-  padding: .5rem 1.3rem;
-  font-size: 1.5rem;
 }
 /* end of products */
 
@@ -694,4 +687,10 @@ header > .icons > #menu-bar {
   .order > form > .input-box > .input{
     width: 100%;
   }
+
+  .products > .box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
