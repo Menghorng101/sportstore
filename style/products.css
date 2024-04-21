@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 :root {
   --green: #27ae60;
@@ -47,140 +47,135 @@ section {
 
 section:nth-child(even) {
   background-color: #eee;
-} */
+}
+
 :root {
-    --green: #27ae60;
-    --light: #666;
-    --dark: #34495e;
-    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --green: #27ae60;
+  --light: #666;
+  --dark: #34495e;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
-.hero{
-    margin: 5rem 0;
+.hero {
+  margin: 5rem 0;
 }
 
-.box-hero{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+.box-hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
-.card-hero{
-    border: .1rem solid #eee;
-    border-radius: 1rem;
-    padding: 2rem;
-    box-shadow: var(--box-shadow);
+.card-hero {
+  border: 0.1rem solid #eee;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
 }
 
-.card-hero:hover{
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+.card-hero:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
 }
 
-.card-hero > .image{
-    max-width: 100%;
-    position: relative;
-    overflow: hidden;
+.card-hero > .image {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-.card-hero > .image > img{
-    width: 100%;
+.card-hero > .image > img {
+  width: 100%;
 }
 
 .card-hero > .image > .fa-share,
-.card-hero > .image > .fa-eye
-{
+.card-hero > .image > .fa-eye {
   position: absolute;
-  top: .1rem;
+  top: 0.1rem;
   width: 3rem;
   height: 3rem;
   line-height: 3rem;
   text-align: center;
   border-radius: 50%;
   font-size: 1.5rem;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
   background: #eee;
 }
 
-.card-hero > .image > .fa-share{
+.card-hero > .image > .fa-share {
   right: -5rem;
 }
 
-.card-hero > .image > .fa-eye{
+.card-hero > .image > .fa-eye {
   left: -5rem;
 }
 
-.card-hero:hover > .image > .fa-share{
-  right: .1rem;
+.card-hero:hover > .image > .fa-share {
+  right: 0.1rem;
 }
 
-.card-hero:hover > .image > .fa-eye{
-  left: .1rem;
+.card-hero:hover > .image > .fa-eye {
+  left: 0.1rem;
 }
 
 .card-hero > .image > .fa-share:hover,
-.card-hero > .image > .fa-eye:hover
-{
+.card-hero > .image > .fa-eye:hover {
   background-color: var(--green);
   color: #fff;
 }
 
-.card-hero > .content{
-    margin-top: 1rem;
-    color: var(--dark);
+.card-hero > .content {
+  margin-top: 1rem;
+  color: var(--dark);
 }
 
-.card-hero > .content > h4{
-    font-size: 1.8rem;
-    margin: 1rem 0 .5rem;
+.card-hero > .content > h4 {
+  font-size: 1.8rem;
+  margin: 1rem 0 0.5rem;
 }
 
-.card-hero > .content >span{
+.card-hero > .content > span {
   font-size: 2rem;
   color: var(--green);
   font-weight: bolder;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
-
-
 
 /* media query responsive */
 @media screen and (max-width: 991px) {
-    html {
-      font-size: 55%;
-    }
-  
-    header {
-      padding: 1rem 2rem;
-    }
-  
-    section {
-      padding: 2rem;
-    }
+  html {
+    font-size: 55%;
+  }
 
-    .box-hero{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+  header {
+    padding: 1rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .box-hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-  
+
 @media screen and (max-width: 768px) {
-    .box-hero{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
+  .box-hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-  
+
 @media screen and (max-width: 450px) {
-    html {
-      font-size: 50%;
-    }
-    .box-hero{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
-    .box-hero > .card-hero{
-      text-align: center;
-    }
+  html {
+    font-size: 50%;
+  }
+  .box-hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-hero > .card-hero {
+    text-align: center;
+  }
 }
-  
