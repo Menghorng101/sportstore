@@ -126,6 +126,7 @@ section:nth-child(even) {
 .card-hero > .content {
   margin-top: 1rem;
   color: var(--dark);
+  text-align: center;
 }
 
 .card-hero > .content > h4 {
@@ -133,12 +134,22 @@ section:nth-child(even) {
   margin: 1rem 0 0.5rem;
 }
 
-.card-hero > .content > span {
+.card-hero > .content > .price{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
   font-size: 2rem;
   color: var(--green);
   font-weight: bolder;
-  margin-left: 0.5rem;
+  margin-top: .5rem;
 }
+
+.card-hero > .content > .price > span{
+  text-decoration: line-through;
+}
+
+
 
 /* media query responsive */
 @media screen and (max-width: 991px) {
@@ -170,12 +181,5 @@ section:nth-child(even) {
 @media screen and (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-  .box-hero {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .box-hero > .card-hero {
-    text-align: center;
   }
 }
