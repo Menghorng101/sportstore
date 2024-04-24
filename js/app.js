@@ -78,7 +78,7 @@ var swiper = new Swiper(".arrivals-slider", {
   loop: true,
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
 
     640: {
