@@ -67,3 +67,30 @@ var swiper = new Swiper(".review-slider", {
       },
     },
 });
+
+var swiper = new Swiper(".arrivals-slider", {
+  spaceBetween: 20,
+  centeredSlides: true,
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
+  loop: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+    },
+
+    640: {
+      slidesPerView: 2,
+    },
+
+    768: {
+      slidesPerView: 3,
+    },
+    
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});

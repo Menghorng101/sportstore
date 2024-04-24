@@ -56,6 +56,7 @@ section:nth-child(even) {
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
+/* hero */
 .hero {
   margin: 5rem 0;
 }
@@ -147,12 +148,71 @@ section:nth-child(even) {
   font-size: 2rem;
   color: var(--green);
   font-weight: bolder;
-  
 }
 
 .card-hero > .content > .price > span {
   text-decoration: line-through;
 }
+/* end of hero */
+
+/* new arrivals */
+.new-arrivals {
+  margin: 5rem 0;
+}
+
+#title {
+  font-size: 3rem;
+  color: var(--dark);
+  position: relative;
+  margin: 5rem 0;
+}
+
+#title > a{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#title > a:hover{
+  color: var(--green);
+}
+
+.arrivals-slider{
+  overflow: hidden;
+}
+
+.new-arrivals .box-new-arrivals {
+  border: 0.1rem solid #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 5rem;
+}
+
+.new-arrivals .box-new-arrivals > .image {
+  max-width: 100%;
+}
+
+.new-arrivals .box-new-arrivals > .image > img {
+  width: 100%;
+}
+
+.box-new-arrivals > p{
+  /* font-size: 2rem; */
+  color: var(--dark);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.box-new-arrivals > span{
+  font-size: 2rem;
+  color: var(--green);
+  font-weight: bold;
+}
+/* end of new arrivals */
 
 /* media query responsive */
 @media screen and (max-width: 991px) {
