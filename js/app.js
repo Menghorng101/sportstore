@@ -41,6 +41,7 @@ var swiper = new Swiper(".home-slider", {
     loop: true,
 });
 
+//review
 var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
     centeredSlides: true,
@@ -68,6 +69,7 @@ var swiper = new Swiper(".review-slider", {
     },
 });
 
+//new-arrivals
 var swiper = new Swiper(".arrivals-slider", {
   spaceBetween: 20,
   centeredSlides: true,
@@ -86,11 +88,11 @@ var swiper = new Swiper(".arrivals-slider", {
     },
 
     768: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
   },
 });
