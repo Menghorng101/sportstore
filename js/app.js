@@ -84,7 +84,7 @@ var swiper = new Swiper(".arrivals-slider", {
     },
 
     640: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
 
     768: {
