@@ -134,22 +134,25 @@ section:nth-child(even) {
   margin: 1rem 0 0.5rem;
 }
 
-.card-hero > .content > .price{
+.card-hero > .content > .price {
   display: flex;
   justify-content: center;
   text-align: center;
   gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.card-hero > .content > .price > span,
+.card-hero > .content > .price > a {
   font-size: 2rem;
   color: var(--green);
   font-weight: bolder;
-  margin-top: .5rem;
+  
 }
 
-.card-hero > .content > .price > span{
+.card-hero > .content > .price > span {
   text-decoration: line-through;
 }
-
-
 
 /* media query responsive */
 @media screen and (max-width: 991px) {
