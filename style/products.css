@@ -295,9 +295,4 @@ section:nth-child(even) {
   html {
     font-size: 50%;
   }
-
-  /* .box-product{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  } */
 }
