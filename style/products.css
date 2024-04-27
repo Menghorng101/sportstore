@@ -167,7 +167,7 @@ section:nth-child(even) {
   margin: 5rem 0;
 }
 
-#title > a{
+#title > a {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -176,11 +176,11 @@ section:nth-child(even) {
   cursor: pointer;
 }
 
-#title > a:hover{
+#title > a:hover {
   color: var(--green);
 }
 
-.arrivals-slider{
+.arrivals-slider {
   overflow: hidden;
 }
 
@@ -199,13 +199,13 @@ section:nth-child(even) {
   width: 100%;
 }
 
-.box-new-arrivals > p{
+.box-new-arrivals > p {
   color: var(--dark);
   font-weight: bold;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
-.box-new-arrivals > span{
+.box-new-arrivals > span {
   font-size: 2rem;
   color: var(--green);
   font-weight: bold;
@@ -213,24 +213,23 @@ section:nth-child(even) {
 /* end of new arrivals */
 
 /* just for you */
-.just-for-you{
+.just-for-you {
   padding-top: 3rem;
 }
 
-.box-product{
+.box-product {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-.card-product{
+.card-product {
   padding: 2rem;
   border-radius: 1rem;
-  border: .2rem solid none;
+  border: 0.2rem solid none;
 }
 
-.card-product:hover{
+.card-product:hover {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
-  
 }
 
 .card-product > .image {
@@ -241,22 +240,26 @@ section:nth-child(even) {
   width: 100%;
 }
 
-.description{
-  margin-top: .5rem;
+.card-product > .description {
+  margin-top: 0.5rem;
 }
 
-.description > p{
+.card-product > .description > p {
   color: #666;
   line-height: 1.7;
 }
 
-.description > span{
+.card-product > .price {
+  float: right;
+}
+
+.card-product > .price > span {
   color: var(--green);
   font-size: 2rem;
   font-weight: bold;
+  margin-right: 1rem;
 }
 /* end of just for you */
-
 
 /* media query responsive */
 @media screen and (max-width: 991px) {
@@ -284,7 +287,7 @@ section:nth-child(even) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .box-product{
+  .box-product {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -295,7 +298,7 @@ section:nth-child(even) {
     font-size: 50%;
   }
 
-  .box-product{
+  .box-product {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
