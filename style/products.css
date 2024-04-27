@@ -251,7 +251,6 @@ section:nth-child(even) {
 }
 
 .description > span{
-  margin-left: 1rem;
   color: var(--green);
   font-size: 2rem;
   font-weight: bold;
