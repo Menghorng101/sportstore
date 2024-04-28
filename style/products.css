@@ -234,10 +234,39 @@ section:nth-child(even) {
 
 .card-product > .image {
   max-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .card-product > .image > img {
   width: 100%;
+}
+
+.card-product > .image > .fa-share{
+  position: absolute;
+  top: .1rem;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #eee;
+  color: var(--dark);
+  transition: all .2s linear;
+}
+
+.card-product > .image > .fa-share{
+  right: -5rem;
+}
+
+.card-product:hover > .image > .fa-share{
+  right: 0.1rem;
+
+}
+
+.card-product > .image > .fa-share:hover{
+  background-color: var(--green);
+  color: #fff;
 }
 
 .card-product > .description {
