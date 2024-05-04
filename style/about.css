@@ -55,3 +55,7 @@ section:nth-child(even) {
   --dark: #34495e;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
+
+.about {
+  margin-top: 5rem;
+}
