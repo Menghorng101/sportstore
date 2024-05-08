@@ -112,3 +112,24 @@ section:nth-child(even) {
   color: var(--dark);
   font-size: 1.8rem;
 }
+
+.about > .row > .about-description > .star > i{
+  color: var(--green);
+  margin: .5rem 0;
+}
+
+.about > .row > .about-description > p{
+  color: var(--light)
+}
+
+.about > .row > .about-description > .price{
+  font-size: 2rem;
+  color: var(--green);
+  font-weight: bold;
+}
+
+.about > .row > .about-description > .price > span{
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  margin-left: .5rem;
+}
