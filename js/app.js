@@ -97,9 +97,4 @@ var swiper = new Swiper(".arrivals-slider", {
   },
 });
 
-//image small details
-
-function functio(small){
-  var full = document.querySelector("#id")
-  full.src = small.src
-}
+//

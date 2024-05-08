@@ -59,3 +59,56 @@ section:nth-child(even) {
 .about {
   margin-top: 5rem;
 }
+
+.about > .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border: .3rem solid #eee;
+  padding: 2rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.about > .row > .image-container{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex: 1 1 50rem;
+}
+
+.about > .row > .image-container > .small-image{
+  width: 20%;
+}
+
+.about > .row > .image-container > .big-image{
+  width: 80%;
+}
+
+.about > .row > .image-container > .small-image > img{
+  width: 100%;
+  padding: 1rem;
+  border: .2rem solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.about > .row > .image-container > .small-image > img:hover{
+  background: #ccc;
+}
+
+.about > .row > .image-container > .big-image > img{
+  width: 100%;
+}
+
+.about > .row > .image-container > .big-image > img:hover{
+  transform: scale(1.05);
+}
+
+.about > .row > .about-description{
+  flex: 1 1 40rem;
+}
+
+.about > .row > .about-description > h4{
+  color: var(--dark);
+  font-size: 1.8rem;
+}
