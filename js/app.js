@@ -96,7 +96,7 @@ var swiper = new Swiper(".arrivals-slider", {
   },
 });
 
-//about
+//about page
 document.querySelectorAll(".about-image-1").forEach((image_1) => {
   image_1.addEventListener("click", () => {
     var src = image_1.getAttribute("src");
