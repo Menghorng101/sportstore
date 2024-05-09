@@ -110,3 +110,10 @@ document.querySelectorAll(".about-image-2").forEach((image_2) => {
     document.querySelector('.big-image-2').src = src;
   });
 });
+
+document.querySelectorAll(".about-image-3").forEach((image_3) => {
+  image_3.addEventListener("click", () => {
+    var src = image_3.getAttribute("src");
+    document.querySelector('.big-image-3').src = src;
+  });
+});
