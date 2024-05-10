@@ -135,3 +135,17 @@ section:nth-child(even) {
   text-decoration: line-through;
   margin-left: .5rem;
 }
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 1rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
