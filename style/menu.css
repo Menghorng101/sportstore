@@ -127,6 +127,11 @@ section:nth-child(even) {
   text-align: center;
 }
 
+.menu > .box > .card-box > .description > .star > i{
+  margin: 1rem 0;
+  color: var(--green);
+}
+
 .menu > .box > .card-box > .description > h4 {
   font-size: 1.8rem;
   color: var(--dark);
