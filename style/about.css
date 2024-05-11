@@ -149,3 +149,9 @@ section:nth-child(even) {
     padding: 2rem;
   }
 }
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
