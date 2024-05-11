@@ -64,71 +64,22 @@ section:nth-child(even) {
   letter-spacing: 0.1rem;
 }
 
-/* review */
-.review {
-  margin-top: 5rem;
-}
-
-.review > .box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.review > .box > .card-review {
-  padding: 2rem;
-  border: 0.7rem solid var(--green);
-  border-radius: 1rem;
-  flex: 1 1 30rem;
-  background: #333;
-  text-align: center;
-  color: #fff;
-  margin-top: 6rem;
-}
-
-.review > .box > .card-review > img {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
-  margin-top: -8rem;
-  object-fit: cover;
-  border: 0.7rem solid var(--green);
-}
-
-.review > .box > .card-review > h4 {
-  margin: 1rem 0;
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.review > .box > .card-review > .star > i {
-  color: var(--green);
-  margin-bottom: 1rem;
-  padding: 0.5rem 0;
-}
-
-.review > .box > .card-review > p {
-  line-height: 1.7;
-}
-
-/* end of review */
-
 @media screen and (max-width: 991px) {
-  html {
-    font-size: 55%;
+    html {
+      font-size: 55%;
+    }
+  
+    header {
+      padding: 1rem 2rem;
+    }
+  
+    section {
+      padding: 2rem;
+    }
   }
-
-  header {
-    padding: 1rem 2rem;
+  
+  @media screen and (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
   }
-
-  section {
-    padding: 2rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-}
