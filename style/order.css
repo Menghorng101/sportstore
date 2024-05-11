@@ -64,22 +64,74 @@ section:nth-child(even) {
   letter-spacing: 0.1rem;
 }
 
+/* order */
+.order {
+  margin-top: 5rem;
+}
+
+.order > form {
+  background: #eee;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.order > form > .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.order > form > .flex > .input-box {
+  width: 49%;
+  padding: 0.7rem 0;
+}
+
+.order > form > .flex > .input-box > input,
+.order > form > .flex > .input-box > textarea {
+  width: 100%;
+  font-size: 1.7rem;
+  margin-top: .5rem;
+  padding: 1rem 1.2rem;
+  border-radius: .5rem;
+  text-transform: none;
+  color: var(--light);
+}
+
+.order > form > .flex > .input-box > textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.order > form > .flex > .input-box > .map{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+/* end of order */
+
 @media screen and (max-width: 991px) {
-    html {
-      font-size: 55%;
-    }
-  
-    header {
-      padding: 1rem 2rem;
-    }
-  
-    section {
-      padding: 2rem;
-    }
+  html {
+    font-size: 55%;
   }
-  
-  @media screen and (max-width: 450px) {
-    html {
-      font-size: 50%;
-    }
+
+  header {
+    padding: 1rem 2rem;
   }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .order > form > .flex > .input-box {
+        width: 100%;
+        height: 100%;
+    } 
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
